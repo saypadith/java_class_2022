@@ -9,7 +9,7 @@ class Programming {
     }
 
     public static void main(String[] args) {
-       Car car1 = new Car("Toyota", "Revo", 2023);
+       Car car1 = new Car("Honda", "Civic", 2023);
        System.out.println(car1.getMake());
        System.out.println(car1.getModel());
         car1.setYear(2022);
